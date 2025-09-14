@@ -1,0 +1,39 @@
+name: alma_mater_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.8
+  audioplayers: ^5.2.1 
+  video_player: ^2.4.5
+  just_audio: ^0.9.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bg.png
+    - assets/music/music.mp3
+    - assets/music/mission.mp3
+    - assets/music/vission.mp3
+    - assets/videos/event_4.mp4
+    - assets/images/event.png
+    - assets/images/event1.png
+    - assets/images/event2.png
+    - assets/images/event3.png
+    - assets/images/event4.png
+    - assets/images/event5.png
+    - assets/images/event6.png
